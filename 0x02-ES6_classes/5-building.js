@@ -4,7 +4,7 @@ export default class Building {
       throw new TypeError('Sqft must be a number');
     }
 
-    this._sqft = value;
+    this._sqft = sqft;
   }
 
   get sqft() {
