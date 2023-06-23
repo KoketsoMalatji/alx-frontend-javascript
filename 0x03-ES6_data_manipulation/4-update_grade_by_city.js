@@ -1,4 +1,4 @@
-xport default function updateStudentGradeByCity(arr, city, newGrades) {
+export default function updateStudentGradeByCity(arr, city, newGrades) {
   return arr
     .filter((obj) => obj.location === city)
     .map((person) => {
